@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+/*  font-family: 'Peralta', cursive;
+    font-family: 'Roboto', sans-serif; */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+
+/* começo header */
+header{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #8a2be2;
+    background-image: url(img/foto_portifolioSF.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+}
+
+
+
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Peralta', cursive;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+
+
+.a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem 4rem;
+    border: 1px solid white;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+    margin: 1px;
+}
+
+.a:hover{
+    background-color: purple;
+}
+
+/* fim header */
+
+
+
+
+/* começo main */
+.container{
+    background-color: black;
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SobreMim{
+    width: 500px;
+}
+
+.SobreMimH2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.imgContato{
+    width: 50px;
+}
+
+.SobreMimp{
+    font-size: 20px;
+    
+}
+
+
+/* fim main */
+
+
+
+
+/* começo footer */
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #8a2be2;
+}
+
+.footerH2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container-Projetos{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Projetos{
+    width: 300px;
+    display: inline-block;
+}
+
+.imagemP1{
+    background-image: url(img/cell.png);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+}
+
+.imagemP2{
+    background-image: url(img/login.png);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+}
+
+.imagemP3{
+    background-image: url(img/velha.png);
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+}
+
+
+/* fim footer */
